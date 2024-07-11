@@ -12,10 +12,10 @@
     "build": "rm -rf dist && tsc --project tsconfig.esm.json"
   },
   "exports": {
-    "require": "./dist/index.js",
-    "import": "./dist/index.js",
-    "node": "./dist/index.js",
-    "default": "./dist/index.js"
+    "require": "./src/index.ts",
+    "import": "./src/index.ts",
+    "node": "./src/index.ts",
+    "default": "./src/index.ts"
   },
   "types": "./dist/index.d.ts",
   "files": ["dist"],
