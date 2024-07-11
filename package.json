@@ -17,8 +17,6 @@
     "node": "./src/index.ts",
     "default": "./src/index.ts"
   },
-  "types": "./dist/index.d.ts",
-  "files": ["dist"],
   "keywords": [
     "elysia",
     "basic-auth"
